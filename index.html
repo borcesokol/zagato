@@ -37,7 +37,7 @@
 </nav>
 
 <!-- Hero Section -->
-<header class="hero" id="home" style="background-image: url('images/Flogita studio by the sea/flogita-studio-beach.jpg');">
+<header class="hero" id="home" style="background-image: url('images/Flogita studio by the sea/flogita-studio-lounge.jpg');">
     <div class="hero-overlay"></div>
     <div class="hero-content">
         <h1 data-i18n="hero_title">Zagato Apartments</h1>
@@ -58,11 +58,10 @@
             <div class="apartment-card apartment-card-featured" id="flogita-studio">
                 <div class="card-gallery">
                     <div class="gallery-main">
-                        <img src="images/Flogita studio by the sea/flogita-studio-beach.jpg" alt="Beach in front of Flogita Studio" loading="lazy">
+                        <img src="images/Flogita studio by the sea/flogita-studio-lounge.jpg" alt="Flogita Studio beachside lounge" loading="lazy">
                     </div>
                     <div class="gallery-thumbs">
-                        <img src="images/Flogita studio by the sea/flogita-studio-beach.jpg" alt="Flogita beach" class="thumb active" onclick="switchImage(this, 'flogita-studio')">
-                        <img src="images/Flogita studio by the sea/flogita-studio-lounge.jpg" alt="Beachside lounge" class="thumb" onclick="switchImage(this, 'flogita-studio')">
+                        <img src="images/Flogita studio by the sea/flogita-studio-lounge.jpg" alt="Beachside lounge" class="thumb active" onclick="switchImage(this, 'flogita-studio')">
                         <button class="thumb thumb-video" onclick="openVideo('flogita-studio')">
                             <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
                             <span data-i18n="video">Video</span>
@@ -176,11 +175,20 @@
             <div class="apartment-card" id="flogita-first">
                 <div class="card-gallery">
                     <div class="gallery-main">
-                        <img src="images/Flogita first floor apartment/Zagato2.jpg" alt="Flogita First Floor Apartment" loading="lazy">
+                        <img src="images/Flogita first floor apartment/IMG-7d414871a2aef0c920bd0f2f512328ec-V.jpg" alt="Flogita First Floor Apartment" loading="lazy">
                     </div>
                     <div class="gallery-thumbs">
-                        <img src="images/Flogita first floor apartment/Zagato2.jpg" alt="Flogita first floor" class="thumb active" onclick="switchImage(this, 'flogita-first')">
-                        <img src="images/Flogita first floor apartment/Tarasa_gore_Kafe.jpeg" alt="First floor terrace" class="thumb" onclick="switchImage(this, 'flogita-first')">
+                        <img src="images/Flogita first floor apartment/IMG-7d414871a2aef0c920bd0f2f512328ec-V.jpg" alt="Flogita first floor" class="thumb active" onclick="switchImage(this, 'flogita-first')">
+                        <button class="thumb thumb-video" onclick="openVideo('flogita-first')">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                            <span data-i18n="video">Video</span>
+                        </button>
+                    </div>
+                    <div class="video-overlay" id="flogita-first-video" style="display:none;">
+                        <button class="video-close" onclick="closeVideo('flogita-first')">&times;</button>
+                        <video controls>
+                            <source src="images/Flogita first floor apartment/Hristo2_gore.mp4" type="video/mp4">
+                        </video>
                     </div>
                     <span class="card-badge" data-i18n="badge_first">First Floor</span>
                 </div>
