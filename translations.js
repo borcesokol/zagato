@@ -14,7 +14,7 @@ const translations = {
 
         // Apartments section
         apartments_title: "Our Apartments",
-        apartments_subtitle: "Choose your perfect getaway from our collection of seaside apartments across Greece's most beautiful coastlines. All apartments are fully equipped with kitchen, air conditioning and WiFi.",
+        apartments_subtitle: "Choose your perfect getaway from our collection of fully equipped seaside apartments across Greece's most beautiful coastlines, each featuring a kitchen, air conditioning and WiFi for a comfortable stay.",
 
         // Flogita Studio
         studio_name: "Flogita Studio by the Sea",
@@ -22,42 +22,42 @@ const translations = {
         studio_beds: "4 Beds",
         studio_floor: "Ground Floor",
         studio_beach: "Beachfront",
-        studio_desc: "Ground-floor studio right in front of the beach in Nea Flogita. Sleeps 4 – step outside and feel the sand between your toes.",
+        studio_desc: "Ground-floor studio right in front of the beach in Nea Flogita. Sleeps 4 – step outside and feel the sand between your toes. Perfect for couples or a small family, with beach bars and traditional tavernas just a short walk away in the village.",
 
         // Flogita Apartment by the Sea
         apt_sea_name: "Flogita Apartment by the Sea",
         apt_sea_location: "Nea Flogita, Halkidiki",
-        apt_sea_desc: "Spacious apartment with sea views, ideal for families. Enjoy the Halkidiki coastline right from your doorstep.",
+        apt_sea_desc: "Spacious apartment with sea views, ideal for families. Enjoy the Halkidiki coastline right from your doorstep. The terrace offers lovely sea views, and restaurants and shops are within easy walking distance – great for a relaxing family holiday.",
 
         // Flogita Duplex
         duplex_name: "Flogita Duplex by the Sea",
         duplex_location: "Nea Flogita, Halkidiki",
-        duplex_desc: "Two-level duplex apartment by the sea. Extra space and privacy for larger families or groups of friends.",
+        duplex_desc: "Two-level duplex apartment by the sea. Extra space and privacy for larger families or groups of friends. The two separate levels give added privacy, with balcony views of the sea – ideal for two couples or a larger family.",
 
         // Flogita Ground Floor
         ground_name: "Flogita Apartment – Ground Floor",
         ground_location: "Nea Flogita, Halkidiki",
-        ground_desc: "Ground-floor apartment with easy access and a garden feel. Great for families with small children.",
+        ground_desc: "Ground-floor apartment with easy access and a garden feel. Great for families with small children. Enjoy direct garden access and a shaded outdoor area – very convenient if you're travelling with strollers or heavy luggage.",
 
         // Flogita First Floor
         first_name: "Flogita Apartment – First Floor",
         first_location: "Nea Flogita, Halkidiki",
-        first_desc: "First-floor apartment with elevated views and a refreshing sea breeze. Bright and airy living spaces.",
+        first_desc: "First-floor apartment with elevated views and a refreshing sea breeze. Bright and airy living spaces. The balcony offers panoramic sea views and catches the morning breeze, creating a quiet and peaceful setting.",
 
         // Kalikratia
         kalikratia_name: "Kalikratia Apartment",
         kalikratia_location: "Nea Kalikratia, Halkidiki",
-        kalikratia_desc: "Charming apartment in the lively town of Nea Kalikratia. Close to shops, restaurants, and sandy beaches.",
+        kalikratia_desc: "Charming apartment in the lively town of Nea Kalikratia. Close to shops, restaurants, and sandy beaches. Stroll along the famous long promenade, enjoy vibrant nightlife, and discover the many cafes and fish tavernas lining the waterfront.",
 
         // Perea
         perea_name: "Perea Apartment",
         perea_location: "Perea, Thessaloniki",
-        perea_desc: "Seaside apartment in Perea, just south of Thessaloniki. Perfect base to explore the city and enjoy the coast.",
+        perea_desc: "Seaside apartment in Perea, just south of Thessaloniki. Perfect base to explore the city and enjoy the coast. Only 20 minutes from Thessaloniki airport and city center, with a lively waterfront full of restaurants and cafes, and beautiful sunset views.",
 
         // Kriopigi
         kriopigi_name: "Kriopigi Apartment",
         kriopigi_location: "Kriopigi, Kassandra",
-        kriopigi_desc: "Apartment in beautiful Kriopigi on the Kassandra peninsula. Crystal-clear waters and lush greenery all around.",
+        kriopigi_desc: "Apartment in beautiful Kriopigi on the Kassandra peninsula. Crystal-clear waters and lush greenery all around. Known for its stunning pine tree beaches and popular beach bars, it's also a short drive to Kallithea and other top Kassandra attractions.",
 
         // Badges
         badge_studio: "Studio",
@@ -115,7 +115,7 @@ const translations = {
 
         // Apartments section
         apartments_title: "Наши апартмани",
-        apartments_subtitle: "Изберете го вашиот идеален одмор од нашата колекција апартмани покрај морето на најубавите грчки крајбрежја. Сите апартмани се целосно опремени со кујна, клима и WiFi.",
+        apartments_subtitle: "Изберете го вашиот идеален одмор од нашата колекција апартмани покрај морето на најубавите грчки крајбрежја – сите целосно опремени со кујна, клима и WiFi за максимален комфор.",
 
         // Flogita Studio
         studio_name: "Флогита Студио покрај морето",
@@ -123,42 +123,42 @@ const translations = {
         studio_beds: "4 Кревети",
         studio_floor: "Приземје",
         studio_beach: "Крај плажа",
-        studio_desc: "Студио во приземје веднаш пред плажата во Неа Флогита. За 4 лица – излезете надвор и почувствувајте го песокот под нозете.",
+        studio_desc: "Студио во приземје веднаш пред плажата во Неа Флогита. За 4 лица – излезете надвор и почувствувајте го песокот под нозете. Идеално за парови или мало семејство, со плажни барови и традиционални таверни на кратко растојание во селото.",
 
         // Flogita Apartment by the Sea
         apt_sea_name: "Флогита Апартман покрај морето",
         apt_sea_location: "Неа Флогита, Халкидики",
-        apt_sea_desc: "Простран апартман со поглед на морето, идеален за семејства. Уживајте во крајбрежјето на Халкидики директно пред вашата врата.",
+        apt_sea_desc: "Простран апартман со поглед на морето, идеален за семејства. Уживајте во крајбрежјето на Халкидики директно пред вашата врата. Терасата нуди прекрасен поглед на морето, а ресторани и продавници се на пешачко растојание – совршено за опуштен семеен одмор.",
 
         // Flogita Duplex
         duplex_name: "Флогита Дуплекс покрај морето",
         duplex_location: "Неа Флогита, Халкидики",
-        duplex_desc: "Двонивовски дуплекс апартман покрај морето. Повеќе простор и приватност за поголеми семејства или групи пријатели.",
+        duplex_desc: "Двонивовски дуплекс апартман покрај морето. Повеќе простор и приватност за поголеми семејства или групи пријатели. Двата одделни нивоа нудат дополнителна приватност, со поглед на морето од балконот – идеално за два пара или поголемо семејство.",
 
         // Flogita Ground Floor
         ground_name: "Флогита Апартман – Приземје",
         ground_location: "Неа Флогита, Халкидики",
-        ground_desc: "Апартман во приземје со лесен пристап и градинска атмосфера. Одличен за семејства со мали деца.",
+        ground_desc: "Апартман во приземје со лесен пристап и градинска атмосфера. Одличен за семејства со мали деца. Директен пристап до градината и засенет надворешен простор – многу практично ако патувате со колички или тежок багаж.",
 
         // Flogita First Floor
         first_name: "Флогита Апартман – Прв кат",
         first_location: "Неа Флогита, Халкидики",
-        first_desc: "Апартман на првиот кат со поглед и свеж морски ветрец. Светли и проветрени простории.",
+        first_desc: "Апартман на првиот кат со поглед и свеж морски ветрец. Светли и проветрени простории. Балконот нуди панорамски поглед на морето и го фаќа утринскиот ветрец, создавајќи тивка и мирна атмосфера.",
 
         // Kalikratia
         kalikratia_name: "Каликратија Апартман",
         kalikratia_location: "Неа Каликратија, Халкидики",
-        kalikratia_desc: "Шармантен апартман во живописниот градче Неа Каликратија. Блиску до продавници, ресторани и песочни плажи.",
+        kalikratia_desc: "Шармантен апартман во живописниот градче Неа Каликратија. Блиску до продавници, ресторани и песочни плажи. Прошетајте по познатиот долг кеј, уживајте во живиот ноќен живот и откријте ги бројните кафулиња и рибни таверни покрај брегот.",
 
         // Perea
         perea_name: "Переа Апартман",
         perea_location: "Переа, Солун",
-        perea_desc: "Апартман покрај морето во Переа, јужно од Солун. Идеална база за разгледување на градот и уживање на крајбрежјето.",
+        perea_desc: "Апартман покрај морето во Переа, јужно од Солун. Идеална база за разгледување на градот и уживање на крајбрежјето. Само 20 минути од аеродромот и центарот на Солун, со жив кеј полн со ресторани и кафулиња, и прекрасни погледи на зајдисонце.",
 
         // Kriopigi
         kriopigi_name: "Криопиги Апартман",
         kriopigi_location: "Криопиги, Касандра",
-        kriopigi_desc: "Апартман во прекрасното Криопиги на полуостровот Касандра. Кристално чисти води и бујна зеленило насекаде.",
+        kriopigi_desc: "Апартман во прекрасното Криопиги на полуостровот Касандра. Кристално чисти води и бујна зеленило насекаде. Познато по прекрасните борови плажи и популарни плажни барови, со кратко возење до Калитеа и други атракции на Касандра.",
 
         // Badges
         badge_studio: "Студио",
@@ -216,7 +216,7 @@ const translations = {
 
         // Apartments section
         apartments_title: "Наши апартмани",
-        apartments_subtitle: "Изаберите свој савршени одмор из наше колекције приморских апартмана дуж најлепших грчких обала. Сви апартмани су потпуно опремљени са кухињом, клима уређајем и WiFi-јем.",
+        apartments_subtitle: "Изаберите свој савршени одмор из наше колекције приморских апартмана дуж најлепших грчких обала – сви потпуно опремљени кухињом, клима уређајем и WiFi-јем за удобан боравак.",
 
         // Flogita Studio
         studio_name: "Флогита Студио поред мора",
@@ -224,42 +224,42 @@ const translations = {
         studio_beds: "4 Кревета",
         studio_floor: "Приземље",
         studio_beach: "На плажи",
-        studio_desc: "Студио у приземљу директно испред плаже у Неа Флогити. За 4 особе – изађите напоље и осетите песак под ногама.",
+        studio_desc: "Студио у приземљу директно испред плаже у Неа Флогити. За 4 особе – изађите напоље и осетите песак под ногама. Савршен за парове или малу породицу, са плажним баровима и традиционалним тавернама на кратком растојању у селу.",
 
         // Flogita Apartment by the Sea
         apt_sea_name: "Флогита Апартман поред мора",
         apt_sea_location: "Неа Флогита, Халкидики",
-        apt_sea_desc: "Простран апартман са погледом на море, идеалан за породице. Уживајте у обали Халкидикија пред вашим вратима.",
+        apt_sea_desc: "Простран апартман са погледом на море, идеалан за породице. Уживајте у обали Халкидикија пред вашим вратима. Тераса пружа диван поглед на море, а ресторани и продавнице су на пешачком растојању – одличан за опуштајући породични одмор.",
 
         // Flogita Duplex
         duplex_name: "Флогита Дуплекс поред мора",
         duplex_location: "Неа Флогита, Халкидики",
-        duplex_desc: "Двоетажни дуплекс апартман поред мора. Додатни простор и приватност за веће породице или групе пријатеља.",
+        duplex_desc: "Двоетажни дуплекс апартман поред мора. Додатни простор и приватност за веће породице или групе пријатеља. Два одвојена нивоа пружају додатну приватност, са погледом на море са балкона – идеалан за два пара или већу породицу.",
 
         // Flogita Ground Floor
         ground_name: "Флогита Апартман – Приземље",
         ground_location: "Неа Флогита, Халкидики",
-        ground_desc: "Апартман у приземљу са лаким приступом и баштенским амбијентом. Одличан за породице са малом децом.",
+        ground_desc: "Апартман у приземљу са лаким приступом и баштенским амбијентом. Одличан за породице са малом децом. Директан приступ башти и заклоњен спољашњи простор – веома практично ако путујете са колицима или тешким пртљагом.",
 
         // Flogita First Floor
         first_name: "Флогита Апартман – Први спрат",
         first_location: "Неа Флогита, Халкидики",
-        first_desc: "Апартман на првом спрату са узвишеним погледом и свежим морским поветарцем. Светли и прозрачни простори.",
+        first_desc: "Апартман на првом спрату са узвишеним погледом и свежим морским поветарцем. Светли и прозрачни простори. Балкон пружа панорамски поглед на море и хвата јутарњи поветарац, стварајући тих и миран амбијент.",
 
         // Kalikratia
         kalikratia_name: "Каликратија Апартман",
         kalikratia_location: "Неа Каликратија, Халкидики",
-        kalikratia_desc: "Шармантан апартман у живописном граду Неа Каликратија. Близу продавница, ресторана и песковитих плажа.",
+        kalikratia_desc: "Шармантан апартман у живописном граду Неа Каликратија. Близу продавница, ресторана и песковитих плажа. Прошетајте познатом дугом шеталиштом, уживајте у живом ноћном животу и откријте бројне кафиће и рибље таверне дуж обале.",
 
         // Perea
         perea_name: "Переа Апартман",
         perea_location: "Переа, Солун",
-        perea_desc: "Приморски апартман у Переи, јужно од Солуна. Савршена база за истраживање града и уживање на обали.",
+        perea_desc: "Приморски апартман у Переи, јужно од Солуна. Савршена база за истраживање града и уживање на обали. Само 20 минута од аеродрома и центра Солуна, са живом обалом пуном ресторана и кафића, и прелепим погледима на залазак сунца.",
 
         // Kriopigi
         kriopigi_name: "Криопиги Апартман",
         kriopigi_location: "Криопиги, Касандра",
-        kriopigi_desc: "Апартман у прелепом Криопигију на полуострву Касандра. Кристално чисте воде и бујно зеленило свуда около.",
+        kriopigi_desc: "Апартман у прелепом Криопигију на полуострву Касандра. Кристално чисте воде и бујно зеленило свуда около. Познат по прелепим плажама међу боровима и популарним плажним баровима, на кратком растојању од Калитеје и других атракција Касандре.",
 
         // Badges
         badge_studio: "Студио",
@@ -317,7 +317,7 @@ const translations = {
 
         // Apartments section
         apartments_title: "Наши апартаменты",
-        apartments_subtitle: "Выберите идеальный отдых из нашей коллекции приморских апартаментов на самых красивых побережьях Греции. Все апартаменты полностью оборудованы кухней, кондиционером и WiFi.",
+        apartments_subtitle: "Выберите идеальный отдых из нашей коллекции приморских апартаментов на самых красивых побережьях Греции – каждый полностью оборудован кухней, кондиционером и WiFi для вашего комфорта.",
 
         // Flogita Studio
         studio_name: "Флогита Студия у моря",
@@ -325,42 +325,42 @@ const translations = {
         studio_beds: "4 Кровати",
         studio_floor: "Первый этаж",
         studio_beach: "На пляже",
-        studio_desc: "Студия на первом этаже прямо перед пляжем в Неа Флогите. На 4 человека – выйдите и почувствуйте песок под ногами.",
+        studio_desc: "Студия на первом этаже прямо перед пляжем в Неа Флогите. На 4 человека – выйдите и почувствуйте песок под ногами. Идеально для пар или небольшой семьи, с пляжными барами и традиционными тавернами в шаговой доступности в деревне.",
 
         // Flogita Apartment by the Sea
         apt_sea_name: "Флогита Апартамент у моря",
         apt_sea_location: "Неа Флогита, Халкидики",
-        apt_sea_desc: "Просторные апартаменты с видом на море, идеальны для семей. Наслаждайтесь побережьем Халкидики прямо у вашего порога.",
+        apt_sea_desc: "Просторные апартаменты с видом на море, идеальны для семей. Наслаждайтесь побережьем Халкидики прямо у вашего порога. Терраса с видом на море, рестораны и магазины в пешей доступности – отличный выбор для спокойного семейного отдыха.",
 
         // Flogita Duplex
         duplex_name: "Флогита Дуплекс у моря",
         duplex_location: "Неа Флогита, Халкидики",
-        duplex_desc: "Двухуровневый дуплекс у моря. Дополнительное пространство и приватность для больших семей или компаний друзей.",
+        duplex_desc: "Двухуровневый дуплекс у моря. Дополнительное пространство и приватность для больших семей или компаний друзей. Два отдельных уровня обеспечивают дополнительную приватность, а с балкона открывается вид на море – идеально для двух пар или большой семьи.",
 
         // Flogita Ground Floor
         ground_name: "Флогита Апартамент – Первый этаж",
         ground_location: "Неа Флогита, Халкидики",
-        ground_desc: "Апартаменты на первом этаже с лёгким доступом и садовой атмосферой. Отлично подходит для семей с маленькими детьми.",
+        ground_desc: "Апартаменты на первом этаже с лёгким доступом и садовой атмосферой. Отлично подходит для семей с маленькими детьми. Прямой выход в сад и затенённая зона отдыха на свежем воздухе – очень удобно, если вы путешествуете с коляской или тяжёлым багажом.",
 
         // Flogita First Floor
         first_name: "Флогита Апартамент – Второй этаж",
         first_location: "Неа Флогита, Халкидики",
-        first_desc: "Апартаменты на втором этаже с возвышенным видом и свежим морским бризом. Светлые и просторные помещения.",
+        first_desc: "Апартаменты на втором этаже с возвышенным видом и свежим морским бризом. Светлые и просторные помещения. Балкон с панорамным видом на море ловит утренний бриз, создавая тихую и умиротворённую обстановку.",
 
         // Kalikratia
         kalikratia_name: "Каликратия Апартамент",
         kalikratia_location: "Неа Каликратия, Халкидики",
-        kalikratia_desc: "Очаровательные апартаменты в живописном городке Неа Каликратия. Рядом с магазинами, ресторанами и песчаными пляжами.",
+        kalikratia_desc: "Очаровательные апартаменты в живописном городке Неа Каликратия. Рядом с магазинами, ресторанами и песчаными пляжами. Прогуляйтесь по знаменитой длинной набережной, насладитесь яркой ночной жизнью и откройте для себя множество кафе и рыбных таверн вдоль берега.",
 
         // Perea
         perea_name: "Перея Апартамент",
         perea_location: "Перея, Салоники",
-        perea_desc: "Приморские апартаменты в Перее, к югу от Салоников. Идеальная база для знакомства с городом и отдыха на побережье.",
+        perea_desc: "Приморские апартаменты в Перее, к югу от Салоников. Идеальная база для знакомства с городом и отдыха на побережье. Всего 20 минут от аэропорта и центра Салоников, с оживлённой набережной полной ресторанов и кафе, и прекрасными видами на закат.",
 
         // Kriopigi
         kriopigi_name: "Криопиги Апартамент",
         kriopigi_location: "Криопиги, Кассандра",
-        kriopigi_desc: "Апартаменты в прекрасном Криопиги на полуострове Кассандра. Кристально чистые воды и пышная зелень повсюду.",
+        kriopigi_desc: "Апартаменты в прекрасном Криопиги на полуострове Кассандра. Кристально чистые воды и пышная зелень повсюду. Известен своими великолепными сосновыми пляжами и популярными пляжными барами, а также находится в нескольких минутах езды от Каллифеи и других достопримечательностей Кассандры.",
 
         // Badges
         badge_studio: "Студия",
