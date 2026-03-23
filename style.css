@@ -147,6 +147,64 @@ img {
     background: var(--color-text);
 }
 
+/* ===== Nav Right & Language Switcher ===== */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.lang-switcher {
+    display: flex;
+    gap: 4px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 50px;
+    padding: 3px;
+    backdrop-filter: blur(4px);
+}
+
+.navbar.scrolled .lang-switcher {
+    background: rgba(0,0,0,0.06);
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    color: rgba(255,255,255,0.75);
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all var(--transition);
+    letter-spacing: 0.5px;
+}
+
+.lang-btn:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.15);
+}
+
+.lang-btn.active {
+    background: var(--color-accent);
+    color: #fff;
+}
+
+.navbar.scrolled .lang-btn {
+    color: var(--color-text-light);
+}
+
+.navbar.scrolled .lang-btn:hover {
+    color: var(--color-text);
+    background: rgba(0,0,0,0.08);
+}
+
+.navbar.scrolled .lang-btn.active {
+    background: var(--color-accent);
+    color: #fff;
+}
+
 /* ===== Hero ===== */
 .hero {
     position: relative;
@@ -155,24 +213,28 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background:
-        linear-gradient(135deg, #1a5276 0%, #2980b9 50%, #1abc9c 100%);
+    background: linear-gradient(135deg, #1a5276 0%, #2980b9 50%, #1abc9c 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     overflow: hidden;
+}
+
+.hero[style*="background-image"] {
+    background-blend-mode: normal;
 }
 
 .hero::before {
     content: '';
     position: absolute;
     inset: 0;
-    background:
-        radial-gradient(ellipse at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 20%, rgba(26,188,156,0.2) 0%, transparent 40%);
+    background: none;
 }
 
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.15);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.25) 40%, rgba(0,0,0,0.5) 100%);
 }
 
 .hero-content {
@@ -692,6 +754,14 @@ img {
     .nav-links a {
         color: var(--color-text) !important;
         font-size: 1.1rem;
+    }
+
+    .lang-switcher {
+        background: rgba(255,255,255,0.2);
+    }
+
+    .navbar.scrolled .lang-switcher {
+        background: rgba(0,0,0,0.06);
     }
 
     .apartments-grid {

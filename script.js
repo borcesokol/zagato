@@ -26,6 +26,40 @@ document.addEventListener('click', (e) => {
     }
 });
 
+// Language switcher
+function setLang(lang) {
+    const t = translations[lang];
+    if (!t) return;
+
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (t[key]) {
+            el.textContent = t[key];
+        }
+    });
+
+    // Update active button
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.remove('active');
+    });
+    const activeBtn = document.querySelector(`.lang-btn[onclick="setLang('${lang}')"]`);
+    if (activeBtn) activeBtn.classList.add('active');
+
+    // Update html lang attribute
+    document.documentElement.lang = lang;
+
+    // Save preference
+    localStorage.setItem('zagato-lang', lang);
+}
+
+// Restore saved language on page load
+(function() {
+    const saved = localStorage.getItem('zagato-lang');
+    if (saved && translations[saved]) {
+        setLang(saved);
+    }
+})();
+
 // Gallery image switching
 function switchImage(thumb, cardId) {
     const card = document.getElementById(cardId);
