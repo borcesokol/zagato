@@ -18,10 +18,10 @@
         <a href="#" class="logo">Zagato</a>
         <div class="nav-right">
             <div class="lang-switcher">
-                <button class="lang-btn active" onclick="setLang('en')"><span class="lang-code">EN</span><span class="lang-flag">🇬🇧</span></button>
-                <button class="lang-btn" onclick="setLang('mk')"><span class="lang-code">МК</span><span class="lang-flag">🇲🇰</span></button>
-                <button class="lang-btn" onclick="setLang('sr')"><span class="lang-code">СР</span><span class="lang-flag">🇷🇸</span></button>
-                <button class="lang-btn" onclick="setLang('ru')"><span class="lang-code">РУ</span><span class="lang-flag">🇷🇺</span></button>
+                <button class="lang-btn active" onclick="setLang('en')"><span class="lang-code">EN</span><img class="lang-flag" src="https://flagcdn.com/w40/gb.png" alt="English"></button>
+                <button class="lang-btn" onclick="setLang('mk')"><span class="lang-code">МК</span><img class="lang-flag" src="https://flagcdn.com/w40/mk.png" alt="Македонски"></button>
+                <button class="lang-btn" onclick="setLang('sr')"><span class="lang-code">СР</span><img class="lang-flag" src="https://flagcdn.com/w40/rs.png" alt="Српски"></button>
+                <button class="lang-btn" onclick="setLang('ru')"><span class="lang-code">РУ</span><img class="lang-flag" src="https://flagcdn.com/w40/ru.png" alt="Русский"></button>
             </div>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
                 <span></span><span></span><span></span>
@@ -37,7 +37,7 @@
 </nav>
 
 <!-- Hero Section -->
-<header class="hero" id="home" style="background-image: url('images/Flogita studio by the sea/flogita-studio-lounge.jpg');">
+<header class="hero" id="home" style="background-image: url('images/Flogita studio by the sea/flogita-studio-beach.jpg');">
     <div class="hero-overlay"></div>
     <div class="hero-content">
         <h1 data-i18n="hero_title">Zagato Apartments</h1>
@@ -58,10 +58,10 @@
             <div class="apartment-card apartment-card-featured" id="flogita-studio">
                 <div class="card-gallery">
                     <div class="gallery-main">
-                        <img src="images/Flogita studio by the sea/flogita-studio-lounge.jpg" alt="Beach in front of Flogita Studio" loading="lazy">
+                        <img src="images/Flogita studio by the sea/flogita-studio-beach.jpg" alt="Beach in front of Flogita Studio" loading="lazy">
                     </div>
                     <div class="gallery-thumbs">
-                        <img src="images/Flogita studio by the sea/flogita-studio-lounge.jpg" alt="Flogita beach" class="thumb active" onclick="switchImage(this, 'flogita-studio')">
+                        <img src="images/Flogita studio by the sea/flogita-studio-beach.jpg" alt="Flogita beach" class="thumb active" onclick="switchImage(this, 'flogita-studio')">
                         <img src="images/Flogita studio by the sea/flogita-studio-lounge.jpg" alt="Beachside lounge" class="thumb" onclick="switchImage(this, 'flogita-studio')">
                         <button class="thumb thumb-video" onclick="openVideo('flogita-studio')">
                             <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
