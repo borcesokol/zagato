@@ -326,15 +326,24 @@
                 </div>
             </div>
 
-            <div class="apartment-card">
-                <div class="card-image" id="kriopigi">
-                    <img src="images/Kriopigi%20apartment/12e9dc19-cd52-498c-8d1e-17c53bb4b108.jpg" alt="Kriopigi Apartment" loading="lazy">
+            <div class="apartment-card" id="kriopigi">
+                <div class="card-gallery">
+                    <div class="gallery-main">
+                        <img src="images/Kriopigi%20apartment/12e9dc19-cd52-498c-8d1e-17c53bb4b108.jpg" alt="Kriopigi Apartment" loading="lazy">
+                    </div>
                     <div class="gallery-thumbs">
                         <img src="images/Kriopigi%20apartment/12e9dc19-cd52-498c-8d1e-17c53bb4b108.jpg" alt="Kriopigi sea view" class="thumb active" onclick="switchImage(this, 'kriopigi')">
                         <img src="images/Kriopigi%20apartment/ac2b744a-7114-4101-b94a-043071dc987e.jpg" alt="Kriopigi panorama" class="thumb" onclick="switchImage(this, 'kriopigi')">
-                        <div class="thumb video-thumb" onclick="playVideo(this, 'kriopigi', 'images/Kriopigi%20apartment/78278aff-7176-45b1-8785-b038a877a2b0.mp4')">
-                            <svg viewBox="0 0 24 24" fill="white" width="20" height="20"><polygon points="5,3 19,12 5,21"/></svg>
-                        </div>
+                        <button class="thumb thumb-video" onclick="openVideo('kriopigi')">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                            <span data-i18n="video">Video</span>
+                        </button>
+                    </div>
+                    <div class="video-overlay" id="kriopigi-video" style="display:none;">
+                        <button class="video-close" onclick="closeVideo('kriopigi')">&times;</button>
+                        <video controls>
+                            <source src="images/Kriopigi%20apartment/78278aff-7176-45b1-8785-b038a877a2b0.mp4" type="video/mp4">
+                        </video>
                     </div>
                     <span class="card-badge" data-i18n="badge_apartment">Apartment</span>
                 </div>
