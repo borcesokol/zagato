@@ -52,11 +52,12 @@ function setLang(lang) {
     localStorage.setItem('zagato-lang', lang);
 }
 
-// Restore saved language on page load
+// Restore saved language on page load (URL param > localStorage > default)
 (function() {
-    const saved = localStorage.getItem('zagato-lang');
-    if (saved && translations[saved]) {
-        setLang(saved);
+    const urlLang = new URLSearchParams(window.location.search).get('lang');
+    const lang = (urlLang && translations[urlLang]) ? urlLang : localStorage.getItem('zagato-lang');
+    if (lang && translations[lang]) {
+        setLang(lang);
     }
 })();
 
