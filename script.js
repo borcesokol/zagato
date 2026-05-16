@@ -139,7 +139,7 @@ document.querySelectorAll('.apartment-card, .location-card, .contact-card').forE
     let items = [];   // [{type:'image'|'video', src, alt}]
     let index = 0;
     let autoTimer = null;
-    const AUTO_MS = 4500;
+    const AUTO_MS = 3000;
 
     function collectItems(card) {
         const result = [];
