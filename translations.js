@@ -59,12 +59,18 @@ const translations = {
         kriopigi_location: "Kriopigi, Kassandra",
         kriopigi_desc: "Apartment in beautiful Kriopigi on the Kassandra peninsula. Crystal-clear waters and lush greenery all around. Known for its stunning pine tree beaches and popular beach bars, it's also a short drive to Kallithea and other top Kassandra attractions.",
 
+        // Afitos Maisonettes
+        afitos_name: "Afitos Maisonettes",
+        afitos_location: "Afitos, Kassandra",
+        afitos_desc: "Two spacious maisonettes near the picturesque village of Afitos, available with 3 or 4 bedrooms and 3 bathrooms. Stunning sea views, fully equipped kitchen, air conditioning and Starlink internet. Private parking and yard make these ideal for larger families or groups of friends seeking comfort and privacy.",
+
         // Badges
         badge_studio: "Studio",
         badge_apartment: "Apartment",
         badge_duplex: "Duplex",
         badge_ground: "Ground Floor",
         badge_first: "First Floor",
+        badge_maisonette: "Maisonette",
 
         // Common
         btn_inquire: "Inquire Now",
@@ -82,6 +88,8 @@ const translations = {
         loc_perea_desc: "A popular seaside suburb just south of Thessaloniki. Enjoy easy access to Greece's second-largest city while relaxing by the Thermaic Gulf.",
         loc_kriopigi: "Kriopigi",
         loc_kriopigi_desc: "A gem on the Kassandra peninsula known for its crystal-clear waters, pine forests, and scenic beaches. One of Halkidiki's most beloved destinations.",
+        loc_afitos: "Afitos",
+        loc_afitos_desc: "One of the most picturesque traditional villages on the Kassandra peninsula, perched on a cliff with breathtaking views of the Toroneos Gulf. Famous for its stone architecture, narrow streets and charming tavernas.",
 
         // Contact
         contact_title: "Get in Touch",
@@ -160,12 +168,18 @@ const translations = {
         kriopigi_location: "Криопиги, Касандра",
         kriopigi_desc: "Апартман во прекрасното Криопиги на полуостровот Касандра. Кристално чисти води и бујна зеленило насекаде. Познато по прекрасните борови плажи и популарни плажни барови, со кратко возење до Калитеа и други атракции на Касандра.",
 
+        // Afitos Maisonettes
+        afitos_name: "Афитос Мезонети",
+        afitos_location: "Афитос, Касандра",
+        afitos_desc: "Два пространи мезонети во близина на живописното село Афитос, достапни со 3 или 4 спални и 3 купатила. Прекрасен поглед на морето, целосно опремена кујна, климатизација и Starlink интернет. Приватен паркинг и двор – идеални за поголеми семејства или групи пријатели кои бараат удобност и приватност.",
+
         // Badges
         badge_studio: "Студио",
         badge_apartment: "Апартман",
         badge_duplex: "Дуплекс",
         badge_ground: "Приземје",
         badge_first: "Прв кат",
+        badge_maisonette: "Мезонет",
 
         // Common
         btn_inquire: "Прашајте сега",
@@ -183,6 +197,8 @@ const translations = {
         loc_perea_desc: "Популарно приморско предградие јужно од Солун. Уживајте во лесен пристап до вториот најголем град во Грција додека се одморате покрај Термајскиот залив.",
         loc_kriopigi: "Криопиги",
         loc_kriopigi_desc: "Бисер на полуостровот Касандра познат по кристално чистите води, боровите шуми и прекрасните плажи. Една од најомилените дестинации на Халкидики.",
+        loc_afitos: "Афитос",
+        loc_afitos_desc: "Едно од најживописните традиционални села на полуостровот Касандра, сместено на карпа со прекрасен поглед на Торонескиот залив. Познато по својата камена архитектура, тесните улички и шармантните таверни.",
 
         // Contact
         contact_title: "Контактирајте нè",
@@ -261,12 +277,18 @@ const translations = {
         kriopigi_location: "Криопиги, Касандра",
         kriopigi_desc: "Апартман у прелепом Криопигију на полуострву Касандра. Кристално чисте воде и бујно зеленило свуда около. Познат по прелепим плажама међу боровима и популарним плажним баровима, на кратком растојању од Калитеје и других атракција Касандре.",
 
+        // Afitos Maisonettes
+        afitos_name: "Афитос Мезонети",
+        afitos_location: "Афитос, Касандра",
+        afitos_desc: "Два пространа мезонета у близини живописног села Афитос, доступни са 3 или 4 спаваће собе и 3 купатила. Прелеп поглед на море, потпуно опремљена кухиња, клима уређај и Starlink интернет. Приватни паркинг и двориште – идеално за веће породице или групе пријатеља који траже удобност и приватност.",
+
         // Badges
         badge_studio: "Студио",
         badge_apartment: "Апартман",
         badge_duplex: "Дуплекс",
         badge_ground: "Приземље",
         badge_first: "Први спрат",
+        badge_maisonette: "Мезонет",
 
         // Common
         btn_inquire: "Питајте сада",
@@ -284,6 +306,8 @@ const translations = {
         loc_perea_desc: "Популарно приморско предграђе јужно од Солуна. Уживајте у лаком приступу другом највећем граду у Грчкој док се опуштате поред Термајског залива.",
         loc_kriopigi: "Криопиги",
         loc_kriopigi_desc: "Бисер полуострва Касандра познат по кристално чистим водама, боровим шумама и живописним плажама. Једна од најомиљенијих дестинација Халкидикија.",
+        loc_afitos: "Афитос",
+        loc_afitos_desc: "Једно од најживописнијих традиционалних села на полуострву Касандра, смештено на стени са прелепим погледом на Торонески залив. Познато по својој каменој архитектури, уским уличицама и шармантним тавернама.",
 
         // Contact
         contact_title: "Контактирајте нас",
@@ -362,12 +386,18 @@ const translations = {
         kriopigi_location: "Криопиги, Кассандра",
         kriopigi_desc: "Апартаменты в прекрасном Криопиги на полуострове Кассандра. Кристально чистые воды и пышная зелень повсюду. Известен своими великолепными сосновыми пляжами и популярными пляжными барами, а также находится в нескольких минутах езды от Каллифеи и других достопримечательностей Кассандры.",
 
+        // Afitos Maisonettes
+        afitos_name: "Афитос Мезонеты",
+        afitos_location: "Афитос, Кассандра",
+        afitos_desc: "Два просторных мезонета рядом с живописной деревней Афитос, доступны с 3 или 4 спальнями и 3 ванными комнатами. Потрясающий вид на море, полностью оборудованная кухня, кондиционер и интернет Starlink. Частная парковка и двор — идеальный вариант для больших семей или групп друзей, ищущих комфорт и уединение.",
+
         // Badges
         badge_studio: "Студия",
         badge_apartment: "Апартамент",
         badge_duplex: "Дуплекс",
         badge_ground: "Первый этаж",
         badge_first: "Второй этаж",
+        badge_maisonette: "Мезонет",
 
         // Common
         btn_inquire: "Узнать подробнее",
@@ -385,6 +415,8 @@ const translations = {
         loc_perea_desc: "Популярный приморский пригород к югу от Салоников. Лёгкий доступ ко второму по величине городу Греции и отдых у Термического залива.",
         loc_kriopigi: "Криопиги",
         loc_kriopigi_desc: "Жемчужина полуострова Кассандра, известная кристально чистыми водами, сосновыми лесами и живописными пляжами. Одно из самых любимых мест Халкидики.",
+        loc_afitos: "Афитос",
+        loc_afitos_desc: "Одна из самых живописных традиционных деревень на полуострове Кассандра, расположенная на скале с захватывающим видом на Торонейский залив. Известна своей каменной архитектурой, узкими улочками и очаровательными тавернами.",
 
         // Contact
         contact_title: "Свяжитесь с нами",
@@ -401,5 +433,114 @@ const translations = {
         // Footer
         footer_desc: "Апартаменты для отдыха в Халкидики и Салониках, Греция",
         footer_copy: "© 2025 Апартаменты Загато. Все права защищены."
+    },
+
+    de: {
+        // Nav
+        nav_home: "Startseite",
+        nav_apartments: "Apartments",
+        nav_locations: "Orte",
+        nav_contact: "Kontakt",
+
+        // Hero
+        hero_title: "Zagato Apartments",
+        hero_subtitle: "Ihre griechische Sommerflucht",
+        hero_description: "Ferienwohnungen in Chalkidiki & Thessaloniki – nur wenige Schritte vom Meer entfernt",
+        hero_btn: "Unsere Apartments entdecken",
+
+        // Apartments section
+        apartments_title: "Unsere Apartments",
+        apartments_subtitle: "Wählen Sie Ihren perfekten Rückzugsort aus unserer Sammlung voll ausgestatteter Apartments an Griechenlands schönsten Küsten – alle verfügen über Küche, Klimaanlage und WLAN für einen komfortablen Aufenthalt.",
+
+        // Flogita Studio
+        studio_name: "Flogita Studio am Meer",
+        studio_location: "Nea Flogita, Chalkidiki",
+        studio_beds: "4 Betten",
+        studio_floor: "Erdgeschoss",
+        studio_beach: "Direkt am Strand",
+        studio_desc: "Studio im Erdgeschoss direkt am Strand in Nea Flogita. Schläft 4 Personen – einfach hinaustreten und den Sand zwischen den Zehen spüren. Perfekt für Paare oder eine kleine Familie, mit Strandbars und traditionellen Tavernen nur einen kurzen Spaziergang entfernt im Dorf.",
+
+        // Flogita Apartment by the Sea
+        apt_sea_name: "Flogita Apartment am Meer",
+        apt_sea_location: "Nea Flogita, Chalkidiki",
+        apt_sea_desc: "Geräumiges Apartment mit Meerblick, ideal für Familien. Genießen Sie die Küste von Chalkidiki direkt vor Ihrer Haustür. Die Terrasse bietet einen schönen Meerblick, Restaurants und Geschäfte sind zu Fuß erreichbar – perfekt für einen entspannten Familienurlaub.",
+
+        // Flogita Duplex
+        duplex_name: "Flogita Duplex am Meer",
+        duplex_location: "Nea Flogita, Chalkidiki",
+        duplex_desc: "Zweistöckiges Duplex-Apartment am Meer. Zusätzlicher Platz und Privatsphäre für größere Familien oder Freundesgruppen. Die zwei getrennten Ebenen sorgen für mehr Privatsphäre, mit Balkonblick aufs Meer – ideal für zwei Paare oder eine größere Familie.",
+
+        // Flogita Ground Floor
+        ground_name: "Flogita Apartment – Erdgeschoss",
+        ground_location: "Nea Flogita, Chalkidiki",
+        ground_desc: "Apartment im Erdgeschoss mit einfachem Zugang und Garten-Atmosphäre. Ideal für Familien mit kleinen Kindern. Direkter Zugang zum Garten und schattiger Außenbereich – sehr praktisch beim Reisen mit Kinderwagen oder schwerem Gepäck.",
+
+        // Flogita First Floor
+        first_name: "Flogita Apartment – Erster Stock",
+        first_location: "Nea Flogita, Chalkidiki",
+        first_desc: "Apartment im ersten Stock mit erhöhter Aussicht und erfrischender Meeresbrise. Helle und luftige Wohnräume. Der Balkon bietet einen Panoramablick auf das Meer und fängt die Morgenbrise ein – ruhig und friedlich.",
+
+        // Kalikratia
+        kalikratia_name: "Kalikratia Apartment",
+        kalikratia_location: "Nea Kalikratia, Chalkidiki",
+        kalikratia_desc: "Charmantes Apartment in der lebhaften Stadt Nea Kalikratia. Nahe zu Geschäften, Restaurants und Sandstränden. Spazieren Sie entlang der berühmten langen Promenade, genießen Sie das pulsierende Nachtleben und entdecken Sie die vielen Cafés und Fischtavernen an der Küste.",
+
+        // Perea
+        perea_name: "Perea Apartment",
+        perea_location: "Perea, Thessaloniki",
+        perea_desc: "Apartment am Meer in Perea, südlich von Thessaloniki. Perfekte Basis, um die Stadt zu erkunden und die Küste zu genießen. Nur 20 Minuten vom Flughafen und Stadtzentrum Thessaloniki entfernt, mit einer lebhaften Uferpromenade voller Restaurants und Cafés sowie wunderschönen Sonnenuntergängen.",
+
+        // Kriopigi
+        kriopigi_name: "Kriopigi Apartment",
+        kriopigi_location: "Kriopigi, Kassandra",
+        kriopigi_desc: "Apartment im wunderschönen Kriopigi auf der Halbinsel Kassandra. Kristallklares Wasser und üppiges Grün rundherum. Bekannt für seine atemberaubenden Strände unter Pinien und beliebten Strandbars, mit kurzer Fahrt zu Kallithea und anderen Top-Attraktionen von Kassandra.",
+
+        // Afitos Maisonettes
+        afitos_name: "Afitos Maisonetten",
+        afitos_location: "Afitos, Kassandra",
+        afitos_desc: "Zwei geräumige Maisonetten in der Nähe des malerischen Dorfes Afitos, verfügbar mit 3 oder 4 Schlafzimmern und 3 Badezimmern. Atemberaubender Meerblick, voll ausgestattete Küche, Klimaanlage und Starlink-Internet. Privater Parkplatz und Garten – ideal für größere Familien oder Freundesgruppen, die Komfort und Privatsphäre suchen.",
+
+        // Badges
+        badge_studio: "Studio",
+        badge_apartment: "Apartment",
+        badge_duplex: "Duplex",
+        badge_ground: "Erdgeschoss",
+        badge_first: "Erster Stock",
+        badge_maisonette: "Maisonette",
+
+        // Common
+        btn_inquire: "Jetzt anfragen",
+        photo_soon: "Foto folgt in Kürze",
+        video: "Video",
+
+        // Locations
+        locations_title: "Unsere Orte",
+        locations_subtitle: "Entdecken Sie die wunderschönen Reiseziele, an denen unsere Apartments liegen.",
+        loc_flogita: "Flogita",
+        loc_flogita_desc: "Ein ruhiges Küstendorf in Chalkidiki mit langen Sandstränden und ruhigem türkisfarbenem Wasser. Fünf unserer Apartments befinden sich hier, alle in Gehweite zum Meer.",
+        loc_kalikratia: "Nea Kalikratia",
+        loc_kalikratia_desc: "Eine lebhafte Küstenstadt mit schöner Promenade, traditionellen Tavernen und einer lebendigen Sommeratmosphäre. Ideal für alle, die sowohl Strand als auch Nachtleben mögen.",
+        loc_perea: "Perea",
+        loc_perea_desc: "Ein beliebter Küstenvorort südlich von Thessaloniki. Genießen Sie den einfachen Zugang zur zweitgrößten Stadt Griechenlands, während Sie am Thermaischen Golf entspannen.",
+        loc_kriopigi: "Kriopigi",
+        loc_kriopigi_desc: "Ein Juwel auf der Halbinsel Kassandra, bekannt für kristallklares Wasser, Pinienwälder und malerische Strände. Eines der beliebtesten Reiseziele von Chalkidiki.",
+        loc_afitos: "Afitos",
+        loc_afitos_desc: "Eines der malerischsten traditionellen Dörfer auf der Halbinsel Kassandra, auf einer Klippe gelegen mit atemberaubendem Blick auf den Toronaios-Golf. Berühmt für seine Steinarchitektur, schmalen Gassen und charmanten Tavernen.",
+
+        // Contact
+        contact_title: "Kontaktieren Sie uns",
+        contact_subtitle: "Bereit für Ihren griechischen Urlaub? Kontaktieren Sie uns direkt über einen der unten stehenden Kanäle. Wir beantworten gerne Ihre Fragen und helfen Ihnen, das perfekte Apartment zu finden.",
+        contact_phone: "Telefon",
+        contact_phone_cta: "Rufen Sie uns an",
+        contact_viber: "Viber",
+        contact_viber_cta: "Nachricht senden",
+        contact_whatsapp: "WhatsApp",
+        contact_whatsapp_cta: "Chatten Sie mit uns",
+        contact_messenger: "Messenger",
+        contact_messenger_cta: "Nachricht senden",
+
+        // Footer
+        footer_desc: "Ferienwohnungen in Chalkidiki & Thessaloniki, Griechenland",
+        footer_copy: "© 2025 Zagato Apartments. Alle Rechte vorbehalten."
     }
 };

@@ -125,3 +125,174 @@ document.querySelectorAll('.apartment-card, .location-card, .contact-card').forE
         slides[current].classList.add('active');
     }, 5000);
 })();
+
+// ===== Lightbox =====
+(function() {
+    const lightbox = document.getElementById('lightbox');
+    const stage = document.getElementById('lightboxStage');
+    const thumbsEl = document.getElementById('lightboxThumbs');
+    const btnClose = document.getElementById('lightboxClose');
+    const btnPrev = document.getElementById('lightboxPrev');
+    const btnNext = document.getElementById('lightboxNext');
+    if (!lightbox) return;
+
+    let items = [];   // [{type:'image'|'video', src, alt}]
+    let index = 0;
+    let autoTimer = null;
+    const AUTO_MS = 4500;
+
+    function collectItems(card) {
+        const result = [];
+        // Images from thumbs
+        card.querySelectorAll('.gallery-thumbs img.thumb').forEach(img => {
+            result.push({ type: 'image', src: img.src, alt: img.alt });
+        });
+        // Video (if exists)
+        const videoEl = card.querySelector('.video-overlay video source, .video-overlay video');
+        if (videoEl) {
+            const src = videoEl.tagName === 'SOURCE' ? videoEl.src : videoEl.currentSrc || videoEl.src;
+            if (src) result.push({ type: 'video', src: src, alt: 'Video' });
+        }
+        return result;
+    }
+
+    function render() {
+        const item = items[index];
+        stage.innerHTML = '';
+        if (item.type === 'image') {
+            const img = document.createElement('img');
+            img.src = item.src;
+            img.alt = item.alt || '';
+            stage.appendChild(img);
+        } else {
+            const video = document.createElement('video');
+            video.src = item.src;
+            video.controls = true;
+            video.autoplay = true;
+            video.playsInline = true;
+            stage.appendChild(video);
+        }
+        // Update thumb active state
+        thumbsEl.querySelectorAll('.lightbox-thumb').forEach((t, i) => {
+            t.classList.toggle('active', i === index);
+            if (i === index) t.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'smooth' });
+        });
+    }
+
+    function buildThumbs() {
+        thumbsEl.innerHTML = '';
+        items.forEach((it, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'lightbox-thumb';
+            if (it.type === 'image') {
+                const img = document.createElement('img');
+                img.src = it.src;
+                img.alt = it.alt || '';
+                btn.appendChild(img);
+            } else {
+                btn.classList.add('lightbox-thumb-video');
+                btn.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>';
+            }
+            btn.addEventListener('click', () => {
+                goTo(i);
+                restartAuto();
+            });
+            thumbsEl.appendChild(btn);
+        });
+    }
+
+    function goTo(i) {
+        index = (i + items.length) % items.length;
+        render();
+    }
+
+    function next() { goTo(index + 1); }
+    function prev() { goTo(index - 1); }
+
+    function startAuto() {
+        stopAuto();
+        autoTimer = setInterval(() => {
+            // Skip auto-advance while video is playing
+            const v = stage.querySelector('video');
+            if (v && !v.paused && !v.ended) return;
+            next();
+        }, AUTO_MS);
+    }
+
+    function stopAuto() {
+        if (autoTimer) {
+            clearInterval(autoTimer);
+            autoTimer = null;
+        }
+    }
+
+    function restartAuto() {
+        stopAuto();
+        startAuto();
+    }
+
+    function open(card, startIndex) {
+        items = collectItems(card);
+        if (!items.length) return;
+        index = Math.max(0, Math.min(startIndex || 0, items.length - 1));
+        buildThumbs();
+        render();
+        lightbox.style.display = 'flex';
+        document.body.classList.add('lightbox-open');
+        startAuto();
+    }
+
+    function close() {
+        lightbox.style.display = 'none';
+        document.body.classList.remove('lightbox-open');
+        stopAuto();
+        const v = stage.querySelector('video');
+        if (v) v.pause();
+        stage.innerHTML = '';
+        thumbsEl.innerHTML = '';
+    }
+
+    // Open from main image click
+    document.querySelectorAll('.apartment-card').forEach(card => {
+        const main = card.querySelector('.gallery-main img');
+        if (main) {
+            main.addEventListener('click', () => {
+                // Find which thumb is active to use as start index
+                const thumbs = Array.from(card.querySelectorAll('.gallery-thumbs img.thumb'));
+                const activeIdx = thumbs.findIndex(t => t.classList.contains('active'));
+                open(card, activeIdx >= 0 ? activeIdx : 0);
+            });
+        }
+        // Click on video thumb opens lightbox at the video instead of inline overlay
+        const vidThumb = card.querySelector('.thumb-video');
+        if (vidThumb) {
+            vidThumb.onclick = (e) => {
+                e.preventDefault();
+                const all = collectItems(card);
+                const videoIdx = all.findIndex(it => it.type === 'video');
+                open(card, videoIdx >= 0 ? videoIdx : 0);
+            };
+        }
+    });
+
+    btnClose.addEventListener('click', close);
+    btnNext.addEventListener('click', () => { next(); restartAuto(); });
+    btnPrev.addEventListener('click', () => { prev(); restartAuto(); });
+
+    // Click on dark background closes
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) close();
+    });
+
+    // Keyboard
+    document.addEventListener('keydown', (e) => {
+        if (lightbox.style.display === 'none' || !lightbox.style.display) return;
+        if (e.key === 'Escape') close();
+        else if (e.key === 'ArrowRight') { next(); restartAuto(); }
+        else if (e.key === 'ArrowLeft') { prev(); restartAuto(); }
+    });
+
+    // Pause on hover (desktop)
+    stage.addEventListener('mouseenter', stopAuto);
+    stage.addEventListener('mouseleave', startAuto);
+})();
