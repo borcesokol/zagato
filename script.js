@@ -292,7 +292,4 @@ document.querySelectorAll('.apartment-card, .location-card, .contact-card').forE
         else if (e.key === 'ArrowLeft') { prev(); restartAuto(); }
     });
 
-    // Pause on hover (desktop)
-    stage.addEventListener('mouseenter', stopAuto);
-    stage.addEventListener('mouseleave', startAuto);
 })();
